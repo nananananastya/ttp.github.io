@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Светло-серый фон */
+    color: #333; /* Темно-серый текст */
+}
+
+header {
+    background-color: #e6e6e6; /* Светло-серый цвет хедера */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Тонкая граница снизу */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #555;
+}
+
+header p {
+    font-style: italic;
+    color: #777;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff; /* Синий цвет ссылок */
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Стили для главной страницы */
+.featured-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.latest-posts {
+    margin-top: 20px;
+}
+
+.post-preview {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-preview img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.post-preview h3 a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Стили для фотогалереи */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Стили для страницы с фактами */
+.fact {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fact img {
+    width: 170px;
+    max-height: 170px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 10px;
+}
